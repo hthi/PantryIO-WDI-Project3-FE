@@ -23,6 +23,9 @@ angular.module('PantryIO').config(['$routeProvider', function($routeProvider){
       controller: 'RecipesController',
       controllerAs: 'recipesController'
     })
+    .when('/about', {
+      templateUrl: 'scripts/views/about.html'
+    })
     .otherwise({
       redirectTo: '/'
     });

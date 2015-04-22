@@ -18,7 +18,7 @@ angular.module('PantryIO').factory('AuthFactory', ['$http', '$window', 'ServerUr
       var data = JSON.parse($window.localStorage.getItem('ga-user'));
       //only if data.token exists, return a boolean true
       //else return false---even if this statement does not evaluate
-      if(data) return !!data.token;
+      if(data) return !!data.user.token;
       return false;
     };
 

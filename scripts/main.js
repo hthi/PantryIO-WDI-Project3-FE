@@ -16,9 +16,9 @@ angular.module('PantryIO', [
 
   $rootScope.$on('$routeChangeStart',function(event,next){
     if(AuthFactory.isAuthenticated()){
-      // ProfilesFactory.getUser();
-    }else{
       ProfilesFactory.getUser();
+    }else{
+      // ProfilesFactory.getUser();
     }
   });
 });

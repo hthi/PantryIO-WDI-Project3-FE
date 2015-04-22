@@ -85,6 +85,7 @@ a:hover {
   left: 20px;
   top: 200px;
   height: 70%;
+  /*height: 200px;*/
   padding: 10px;
 }
 
@@ -94,6 +95,7 @@ a:hover {
   right: 20px;
   top: 200px;
   height: 70%;
+  /*height: 200px;*/
   overflow: scroll;
   border: 2px solid green;
   border-radius: 6px;
@@ -101,7 +103,7 @@ a:hover {
 }
 
 #footer {
-  position: absolute;
+  position: fixed;
   clear: both;
   background-color: white;
   width: 100%;
