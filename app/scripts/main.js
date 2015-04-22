@@ -18,7 +18,6 @@ angular.module('PantryIO', [
     if(AuthFactory.isAuthenticated()){
       ProfilesFactory.getUser();
     }else{
-      // ProfilesFactory.getUser();
     }
   });
 });
