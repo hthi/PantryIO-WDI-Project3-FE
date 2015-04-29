@@ -189,15 +189,10 @@ module.exports = function (grunt) {
     // additional tasks can operate on them
     useminPrepare: {
       options: {
-            dest: '<%= config.dist %>',
-            flow: {
-                steps: {'js': ['concat']},
-                post: {}
-            }
-        },
+        dest: '<%= config.dist %>'
+      },
       html: '<%= config.app %>/index.html'
     },
-
 
     // Performs rewrites based on rev and the useminPrepare configuration
     usemin: {
