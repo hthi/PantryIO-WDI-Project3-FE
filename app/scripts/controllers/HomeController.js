@@ -2,8 +2,8 @@
 
 angular.module('MainController').controller('HomeController', homeController);
 
-// homeController.$inject = [];
+homeController.$inject = [];
 
-// function homeController(){
+function homeController(){
 
-// }
+}
