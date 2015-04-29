@@ -85,22 +85,20 @@ a:hover {
 }
 
 #left {
+  margin-top: 50px;
   width: 45%;
   position: absolute;
   left: 0px;
-  /*top: 200px;*/
   height: 70%;
-  /*height: 200px;*/
   padding: 10px;
 }
 
 #right {
+  margin-top: 50px;
   width: 45%;
   position: absolute;
   right: 0px;
-  /*top: 200px;*/
   height: 500px;
-  /*height: 200px;*/
   overflow: scroll;
   border: 2px solid green;
   border-radius: 6px;
@@ -115,6 +113,12 @@ a:hover {
 }
 
 .oneRecipe {
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.oneProfile {
   width: 70%;
   position: relative;
   margin: 0 auto;
